@@ -13,6 +13,10 @@ Install
 Changelog
 ---------
 
+v2.1.1 (March 17, 2015)
+* Normalize the price data to be tab separated and diff friendly
+* Prices based on iTunes Connect pricing matrix HTML page (the PDF is v21, from January 8, 2015)
+
 v2.1.0 (October 26, 2012)
 
 * Based on v14.
