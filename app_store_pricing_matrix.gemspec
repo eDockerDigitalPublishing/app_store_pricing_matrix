@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Kenn Ejima", "Elliot Bowes"]
+  gem.authors       = ["Kenn Ejima", "Elliot Bowes", "Peter Hillerström"]
   gem.email         = ["kenn.ejima@gmail.com"]
   gem.description   = %q{A simple module that holds currencies and prices from the Apple's iOS App Store.}
   gem.summary       = %q{Constants for App Store Pricing Matrix}
@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "app_store_pricing_matrix"
   gem.require_paths = ["lib"]
-  gem.version       = '2.1.0' # retrieve this value by: Gem.loaded_specs['app_store_pricing_matrix'].version.to_s
+  gem.version       = '2.1.1' # retrieve this value by: Gem.loaded_specs['app_store_pricing_matrix'].version.to_s
 
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "bundler"
